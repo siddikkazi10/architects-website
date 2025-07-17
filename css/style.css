@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.hide{
-    display: none;
-}
+
 
 /* font style  */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
@@ -105,6 +103,9 @@ nav ul li a{
 .content{
     width: 530px;
 }
+.content h2{
+    font-size: 35px;
+}
 
 /* toggle menu start  */
 .toggole-menu{
@@ -134,7 +135,33 @@ nav ul li a{
     align-items: center;
     display: none;
   }
- 
+ .header-text{
+    margin: auto;
+    padding: auto;
+    
+ }
+ .banner-img{
+    margin-top: 190px;
+ }
+ .parent-section{
+    flex-direction: column;
+    gap: 20px;
+ }
+ .image-parent{
+    grid-template-columns: repeat(1, 1fr);
+ }
+ .image-parent img{
+    width: 300%;
+    margin-left: 95px;
+    gap: 30px;
+ }
+ .content{
+   text-align: center;
+   padding-left: 200px;
+   margin:auto;
+   margin-top: 50px;
+  
+ }
 
 
    
