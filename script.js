@@ -6,14 +6,14 @@ const navlinks = document.getElementById("nav-links");
 
 
 openmenu.addEventListener("click", () => {
-   navLinks.clssList.add("active");
+   navLinks.classList.add("active");
    openMenu.style.display = "none";
    closeMenu.style.display = "block";
 });
 
 
 closeMenu.addEventListener("click", () => {
-    navLinks.clssList.remove("active");
+    navLinks.classList.remove("active");
     openMenu.style.display = "block";
     closeMenu.style.display = "none";
 });
