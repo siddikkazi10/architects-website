@@ -87,7 +87,7 @@ nav ul li a{
 .parent-section{
     display: flex;
     align-items: center;
-    gap: 65px;
+    gap: 105px;
 }
 .image-parent{
     display: grid;
@@ -118,6 +118,128 @@ nav ul li a{
     display: none;
 }
 
+/* love and cenjoy */
+.parent-love{
+    display: flex;
+    align-items: center;
+}
+.parent-box{
+    display: block;
+}
+.love-enjoy{
+    margin: 130px 85px;
+   
+}
+.archit-image img{
+    width: 600px;
+    
+   
+}
+.parent-love{
+    gap: 95px;
+}
+h3{
+    font-size: 40px;
+}
+p{
+    color: gray;
+    margin: 20px 0;
+    font-size: 15px;
+}
+.single-box{
+    margin: 10px 0;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 8px;
+}
+.single-box h5{
+  color: gray;
+  margin: 12px 0;
+}
+.experience-btn{
+    padding: 15px 20px;
+    background-color: #FF900E;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   font-size: 18px;
+   margin-top: -100px;
+   margin-left: -100px;
+}
+.year{
+    font-size: 55px;
+
+}
+/* new facts  */
+.parent-icon{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     margin: 0 100px;
+     justify-content: space-between;
+     gap: 60px;
+}
+.icon-box{
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+.icon-box img{
+    font-size: 5px;
+}
+.icon-box h3{
+    margin: 6px 0;
+}
+.facts-title{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.facts-title p{
+    font-size: 14px;
+}
+.facts-section{
+    margin: 80px 0;
+}
+
+/* sponser section  */
+.sponser-title{
+    text-align: center;
+}
+.sponser-title h3{
+    font-size: 32px;
+}
+.sponser-title p{
+    font-size: 14px;
+}
+.sponser-section{
+    margin: 80px 0;
+}
+.parent-logo img{
+    width: 100px;
+    margin: 0 70px;
+    filter: grayscale(100%);
+}
+.parent-logo{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+/* footer  */
+footer{
+   width: 1200px;
+   margin-left: 50px;
+}
+.footer-div{
+    background-color: #FFF4E7;
+    padding: 10px;
+}
+footer p{
+   text-align: center;
+   color: black;
+}
+
 
 
 
@@ -141,7 +263,7 @@ nav ul li a{
     
  }
  .banner-img{
-    margin-top: 190px;
+    margin-bottom: 220px;
  }
  .parent-section{
     flex-direction: column;
@@ -163,7 +285,27 @@ nav ul li a{
   
  }
 
+.parent-love{
+    flex-direction: column;
+    align-items: center;
+      
+    
+}
+.love-enjoy{
+    margin: 20px auto;
+   
+}
+.single-box{
+    padding: auto;
+}
+.parent-icon{
 
+     grid-template-columns: repeat(1, 1fr);
+}
+.parent-logo{
+     grid-template-columns: repeat(1, 1fr);
+     grid-gap: 32px;
+}
    
 
 
