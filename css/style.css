@@ -26,8 +26,8 @@
 
 header{
     background-color:rgba(255, 144, 14, 0.1);
-    width: 1440px;
-   height: 170vh;
+    
+   height: 180vh;
    
 }
 nav{
@@ -62,7 +62,7 @@ nav ul li a{
 .banner-img{
     display: flex;
     justify-content: center;
-    margin-left: -120px;
+    margin-left: 8px;
 }
 
 .header-text{
