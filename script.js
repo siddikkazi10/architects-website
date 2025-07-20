@@ -5,15 +5,15 @@ const closeMenu = document.getElementById("close-menu");
 const navlinks = document.getElementById("nav-links");
 
 
-openmenu.addEventListener("click", () => {
+openMenu.addEventListener("click", () => {
    navLinks.classList.add("active");
    openMenu.style.display = "none";
-   closeMenu.style.display = "block";
+   closeMenu.style.display = "inline-block";
 });
 
 
 closeMenu.addEventListener("click", () => {
     navLinks.classList.remove("active");
-    openMenu.style.display = "block";
-    closeMenu.style.display = "none";
+    openMenu.style.display = "inline-block";
+    closeMenu.style.display = "none";   
 });
