@@ -350,12 +350,18 @@ footer p{
     padding: 20px;
   }
   .facts-title{
-    margin: 0 50px;
+    /* margin: 0 0px; */
+    /* margin-right: 50px; */
+    padding-left: 40px;
   }
   footer{
    width: 300px;
    margin-left: 50px;
  }
+ .footer-div{
+    border-radius: 7px;
+ }
+
 
 }
 
